@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Lato, Arial, Tahoma, sans-serif;
+  font-family: "Lato", Arial, Tahoma, sans-serif;
   overflow-x: hidden;
 }
 
@@ -126,7 +126,7 @@ a {
   margin: 0 auto;
   font-weight: 400;
   font-size: 24px;
-  font-family: Ledger, "Times New Roman", Georgia, serif;
+  font-family: "Ledger", "Times New Roman", Georgia, serif;
 }
 
 .description {
@@ -504,7 +504,7 @@ a {
 }
 
 .booking-paragraph {
-  margin: 20px auto;
+  margin: 20px auto 0;
   text-align: center;
 }
 
@@ -525,6 +525,7 @@ a {
   padding: 0 10px 10px 0;
   font-weight: 500;
   font-size: 16px;
+  font-family: "Lato", Arial, Tahoma, sans-serif;
   color: #fef1e0;
   background-color: transparent;
   border: none;
@@ -540,6 +541,7 @@ a {
 .booking-field::-webkit-input-placeholder {
   font-weight: 500;
   font-size: 16px;
+  font-family: "Lato", Arial, Tahoma, sans-serif;
   color: #fef1e0;
   opacity: 1;
 }
@@ -547,6 +549,7 @@ a {
 .booking-field::-moz-placeholder {
   font-weight: 500;
   font-size: 16px;
+  font-family: "Lato", Arial, Tahoma, sans-serif;
   color: #fef1e0;
   opacity: 1;
 }
@@ -554,6 +557,7 @@ a {
 .booking-field:-moz-placeholder {
   font-weight: 500;
   font-size: 16px;
+  font-family: "Lato", Arial, Tahoma, sans-serif;
   color: #fef1e0;
   opacity: 1;
 }
@@ -561,6 +565,7 @@ a {
 .booking-field:-ms-input-placeholder {
   font-weight: 500;
   font-size: 16px;
+  font-family: "Lato", Arial, Tahoma, sans-serif;
   color: #fef1e0;
   opacity: 1;
 }
@@ -589,6 +594,150 @@ a {
   width: 100%;
   margin-top: 40px;
   cursor: pointer;
+}
+
+
+/*--Contacts--*/
+.contacts {
+  padding: 60px 0;
+  color: #fef1e0;
+  background-color: #001c28;
+}
+
+.contacts-title {
+  text-align: center;
+}
+
+.contacts-paragraph {
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.contacts-item {
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts-item:not(:first-of-type) {
+  margin-top: 30px;
+}
+
+.contacts-image {
+  display: block;
+  width: 280px;
+}
+
+.contacts-wrapper {
+  margin-top: 30px;
+}
+
+.contacts-link {
+  color: inherit;
+}
+
+.contacts-link:hover,
+.contacts-link:focus,
+.contacts-link:active {
+  text-decoration: underline;
+}
+
+.contacts-item-paragraph {
+  max-width: 540px;
+}
+
+.contacts-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 540px;
+  margin: 30px auto 0;
+}
+
+.contacts-form-item {
+  width: 100%;
+}
+
+.contacts-form-item:not(:first-of-type) {
+  margin-top: 10px;
+}
+
+.contacts-field {
+  width: 100%;
+  padding: 10px;
+  min-height: 40px;
+  font-size: 14px;
+  font-family: "Lato", Arial, Tahoma, sans-serif;
+  border: none;
+  border-radius: 5px;
+  color: #001c28;
+  background-color: #ffffff;
+}
+
+.contacts-field::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Lato", Arial, Tahoma, sans-serif;
+  color: #001c28;
+}
+
+.contacts-field::-webkit-input-placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Lato", Arial, Tahoma, sans-serif;
+  color: #001c28;
+}
+
+.contacts-field::-moz-placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Lato", Arial, Tahoma, sans-serif;
+  color: #001c28;
+}
+
+.contacts-field:-moz-placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Lato", Arial, Tahoma, sans-serif;
+  color: #001c28;
+}
+
+.contacts-field:-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Lato", Arial, Tahoma, sans-serif;
+  color: #001c28;
+}
+
+.contacts-field:focus::-webkit-input-placeholder {
+  opacity:0;
+} 
+
+.contacts-field:focus::-moz-placeholder {
+  opacity:0;
+}
+
+.contacts-field:focus:-moz-placeholder {
+  opacity:0;
+}
+
+.contacts-field:focus:-ms-input-placeholder { 
+  opacity:0;
+}
+
+.contacts-textarea {
+  min-height: 130px;
+  resize: none;
+}
+
+.contacts-button {
+  margin-top: 20px;
 }
 
 
@@ -836,6 +985,71 @@ a {
   .booking-button {
     margin-top: 60px;
   }
+
+
+  /*--Contacts--*/
+  .contacts {
+    padding: 80px 0;
+  }
+
+  .contacts-paragraph {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .contacts-list {
+    margin-top: 60px;
+  }
+
+  .contacts-item {
+    width: 100%;
+    max-width: 728px;
+  }
+
+  .contacts-item:not(:first-of-type) {
+    margin-top: 40px;
+  }
+
+  .contacts-item-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contacts-image {
+    order: 1;
+    width: 374px;
+    margin-left: 30px;
+  }
+
+  .contacts-wrapper {
+    margin-top: 0;
+  }
+
+  .contacts-form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .contacts-form-item:not(:first-of-type) {
+    margin-top: 20px;
+  }
+
+  .contacts-form-item {
+    width: 100%;
+  }
+
+  .contacts-form-item.contacts-form-item-half {
+    width: calc((100% - 20px)/2);
+    margin-top: 0;
+  }
+
+  .contacts-button {
+    margin-top: 30px;
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 
@@ -860,6 +1074,11 @@ a {
   /*--Menu--*/
   .menu-paragraph {
     max-width: 539px;
+  }
+
+  /*--Contacts--*/
+  .contacts-item-paragraph {
+    max-width: 580px;
   }
 }
 
@@ -1091,5 +1310,55 @@ a {
     max-width: 100%;
   }
 
+
+
+  /*--Contacts--*/
+  .contacts {
+    padding: 120px 0;
+    background: radial-gradient(677.00px at 50% 50%, rgba(249, 172, 84, 0.42) 0%, rgba(0, 28, 40, 0) 100%) -200px -200px, #001c28;
+  }
+
+  .contacts-paragraph {
+    margin-top: 40px;
+  }
+
+  .contacts-item {
+    max-width: 100%;
+  }
+
+  .contacts-item:not(:first-of-type) {
+    margin-top: 60px;
+  }
+
+  .contacts-item-flex {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .contacts-image {
+    order: 0;
+    width: 508px;
+    margin-left: 0;
+    margin-right: 40px;
+  }
+
+  .contacts-item-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .contacts-form {
+    max-width: 376px;;
+    margin-top: 0;
+    margin-left: 40px;
+  }
+
+
+  .contacts-button {
+    margin-top: 20px;
+    min-height: 40px;
+
+  }
 
 }
