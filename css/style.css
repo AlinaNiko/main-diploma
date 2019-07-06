@@ -599,7 +599,7 @@ a {
 
 /*--Contacts--*/
 .contacts {
-  padding: 60px 0;
+  padding-top: 60px;
   color: #fef1e0;
   background-color: #001c28;
 }
@@ -740,12 +740,18 @@ a {
   margin-top: 20px;
 }
 
+.contacts-map {
+  min-height: 320px;
+  margin-top: 60px;
+  background: #003d3c url("../images/map.jpg") center no-repeat;
+  background-size: cover;
+}
+
 
 
 @media (min-width: 768px) {
 
   /*--Common--*/
- 
   .title {
     font-size: 36px;
   }
@@ -768,7 +774,6 @@ a {
 
 
   /*--Top-bar--*/
-
   .top-bar {
     padding: 28px 0;
   }
@@ -812,7 +817,6 @@ a {
 
 
   /*--Banner--*/
-
   .banner {
     padding: 80px 0;
     background-image: url("../images/banner-background-768.jpg");
@@ -841,7 +845,6 @@ a {
 
 
 /*--About--*/
-
   .about {
     padding: 80px 0;
   }
@@ -920,7 +923,6 @@ a {
 
 
   /*--Menu--*/
-
   .menu {
     padding: 80px 0;
   }
@@ -989,7 +991,7 @@ a {
 
   /*--Contacts--*/
   .contacts {
-    padding: 80px 0;
+    padding-top: 80px;
   }
 
   .contacts-paragraph {
@@ -1050,11 +1052,15 @@ a {
     max-width: 100%;
     width: 100%;
   }
+
+  .contacts-map {
+    margin-top: 80px;
+    min-height: 330px;
+  }
 }
 
 
-@media (min-width: 992px) {
-  
+@media (min-width: 992px) {  
   /*--Common--*/
   .paragraph {
     max-width: 477px;
@@ -1076,6 +1082,7 @@ a {
     max-width: 539px;
   }
 
+
   /*--Contacts--*/
   .contacts-item-paragraph {
     max-width: 580px;
@@ -1084,9 +1091,7 @@ a {
 
 
 @media (min-width: 1170px) {
-
   /*--Common--*/
-
   .container {
     max-width: 1012px;
   }
@@ -1113,14 +1118,12 @@ a {
 
 
   /*--Top-bar--*/
-
   .navigation {
     max-width: 1012px;
   }
 
 
   /*--Banner--*/
-
   .banner {
     padding: 120px 0;
     background-image: url("../images/banner-background-1170.jpg");
@@ -1148,7 +1151,6 @@ a {
 
 
   /*--About--*/
-
   .about {
     padding: 120px 0;
   }
@@ -1314,7 +1316,7 @@ a {
 
   /*--Contacts--*/
   .contacts {
-    padding: 120px 0;
+    padding-top: 120px;
     background: radial-gradient(677.00px at 50% 50%, rgba(249, 172, 84, 0.42) 0%, rgba(0, 28, 40, 0) 100%) -200px -200px, #001c28;
   }
 
@@ -1354,11 +1356,13 @@ a {
     margin-left: 40px;
   }
 
-
   .contacts-button {
     margin-top: 20px;
     min-height: 40px;
-
   }
 
+  .contacts-map {
+    min-height: 455px;
+    margin-top: 120px;
+  }
 }
