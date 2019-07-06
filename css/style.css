@@ -424,7 +424,7 @@ a {
   scrollbar-width: none; /* Firefox */  
 }
 
-.gallery-wrapper-webkit-scrollbar { /* chrome based */
+.gallery-wrapper::-webkit-scrollbar { /* chrome based */
   width: 0px;  /* ширина scrollbar'a */
   background: transparent;  /* опционально */
 }
