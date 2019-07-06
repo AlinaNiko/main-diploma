@@ -1465,7 +1465,7 @@ a {
   /*--Contacts--*/
   .contacts {
     padding-top: 120px;
-    background: radial-gradient(677.00px at 50% 50%, rgba(249, 172, 84, 0.42) 0%, rgba(0, 28, 40, 0) 100%) -200px -200px, #001c28;
+    background: radial-gradient(677.00px at 50% 50%, rgba(249, 172, 84, 0.42) 0%, rgba(0, 28, 40, 0) 100%) -200px -360px, #001c28;
   }
 
   .contacts-paragraph {
