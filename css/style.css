@@ -1299,7 +1299,7 @@ a {
   .first-screen-logo-image {
     width: 280px;
     height: 111px;
-    margin-top: calc(50% - 56px);
+    margin-top: calc(50% - 32px - 56px);
   }
 
   .first-screen-address {
