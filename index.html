@@ -15,7 +15,7 @@
           <button class="navigation-button" type="button"><span class="visually-hidden">Меню</span></button>
           <ul class="navigation-list">
             <li class="navigation-item">
-              <a class="navigation-link navigation-link-active" href="#banner">Главная</a>
+              <a class="navigation-link navigation-link-active" href="#first-screen">Главная</a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="#about">О баре</a>
@@ -33,14 +33,14 @@
         </nav>
       </div>
     </div>
-    <div class="banner" id="banner">
+    <div class="first-screen" id="first-screen">
       <div class="container">
-        <div class="banner-content">
+        <div class="first-screen-content">
           <h1 class="visually-hidden">Бар.78 - бар из Санкт-Петербурга</h1>
-          <img class="banner-logo-image logo-image" src="svg/logo.svg" alt="Логотип">
-          <p class="banner-address">г.&nbsp;Санкт-Петербург, ул.&nbsp;Восстания&nbsp;42, <br> c  16:00 - 02:00</p>
+          <img class="first-screen-logo-image logo-image" src="svg/logo.svg" alt="Логотип">
+          <p class="first-screen-address">г.&nbsp;Санкт-Петербург, ул.&nbsp;Восстания&nbsp;42, c&nbsp;16:00&nbsp;-&nbsp;02:00</p>
         </div>
-        <a class="banner-button button button-booking" href="#booking">Забронировать столик</a>
+        <a class="first-screen-button button button-booking" href="#booking">Забронировать столик</a>
       </div>
     </div>
   </header>
@@ -58,7 +58,7 @@
             </picture>
             <div class="about-wrapper">
               <h3 class="about-heading heading">Счастливые часы</h3>
-              <p class="description">Каждый будний день, <br> с&nbsp;16:00 до&nbsp;20:00</p>
+              <p class="description">Каждый будний день, с&nbsp;16:00&nbsp;до&nbsp;20:00</p>
               <p class="paragraph paragraph-decoration">Для  гостей в&nbsp;заведении подготовили выгодное предложение счастливые часы: любой сорт пива в&nbsp;пивной карте будет стоить вдвое&nbsp;дешевле.</p>
             </div>
           </li>
@@ -98,10 +98,14 @@
               <h3 class="heading">Пивная карта</h3>
               <p class="menu-paragraph paragraph">Здесь представлено около 400 наименований пива и сидра, из них 16 разливные. Из новинок — бутылочная линейка калифорнийского крафтового пива Anderson Valley, которую в России больше нигде не найти. Если понимать под крафтовым пивом всё, что сварено независимыми пивоварнями, то такого наберётся около 150 видов — из Бельгии, Германии, Голландии и других стран. Есть и два собственных сорта из московских пивоварен. </p>
             </div>
-            <img class="menu-image" src="images/menu-image-beer.jpg" alt="Бокал пива">
+            <picture class="menu-image-wrapper">
+              <img class="menu-image" src="images/menu-image-beer.jpg" alt="Бокал пива">
+            </picture>
           </li>
           <li class="menu-item">
-            <img class="menu-image" src="images/menu-image-burger.jpg" alt="Бургер">
+            <picture class="menu-image-wrapper">
+              <img class="menu-image" src="images/menu-image-burger.jpg" alt="Бургер">
+            </picture>
             <div class="menu-wrapper">
               <h3 class="heading">Кухня</h3>
               <p class="menu-paragraph paragraph">В нашем заведении преобладает сытная американская кухня. В меню вы найдёте блюда на гриле, супы, салаты, закуски и, конечно, гордость шефа — авторские бургеры.</p>            
@@ -119,7 +123,7 @@
         </div>
         <div class="booking-wrapper">
           <h2 class="booking-title title">Бронирование</h2>
-          <p class="booking-paragraph paragraph">Вы можете заполнить форму <br> и&nbsp;забронировать столик онлайн, <br> или&nbsp;позвонить нам по&nbsp;телефону +7&nbsp;800&nbsp;2000&nbsp;600</p>
+          <p class="booking-paragraph paragraph">Вы можете заполнить форму и&nbsp;забронировать столик онлайн, или&nbsp;позвонить нам по&nbsp;телефону +7&nbsp;800&nbsp;2000&nbsp;600</p>
           <form class="booking-form" action="#">
             <label class="booking-item">
               <span class="visually-hidden">Введите ваше имя</span>
@@ -149,7 +153,7 @@
     <section class="contacts" id="contacts">
       <div class="contacts-container container">
         <h2 class="contacts-title title">Контакты</h2>
-        <p class="contacts-paragraph paragraph">С наилучшими пожеланиями из&nbsp;Санкт&#8209;Петербурга! <br> Заходите поздороваться, мы&nbsp;открыты каждый день</p>
+        <p class="contacts-paragraph paragraph">С наилучшими пожеланиями из&nbsp;Санкт&#8209;Петербурга! Заходите&nbsp;поздороваться, мы&nbsp;открыты каждый день</p>
         <ul class="contacts-list">
           <li class="contacts-item contacts-item-flex">
             <img class="contacts-image" src="images/contacts-image.jpg" alt="Фото входа в бар">
@@ -200,7 +204,7 @@
     <div class="main-footer-container container">
       <ul class="main-footer-list">
         <li class="main-footer-item">
-          <a class="main-footer-link" href="#banner">Главная</a>
+          <a class="main-footer-link" href="#first-screen">Главная</a>
         </li>
         <li class="main-footer-item">
           <a class="main-footer-link" href="#about">О баре</a>
@@ -245,8 +249,8 @@
         </ul>
       </div>
       <div class="main-footer-contacts">
-        <p class="main-footer-tel">Бронирование <br> и&nbsp;дополнительная информация по&nbsp;телефону <a class="main-footer-tel-link" href="tel:+78002000600">+7 800 2000 600</a></p>
-        <p class="main-footer-address">Адрес: ул. Восстания 42а <br> Время работы: 13:00 – 02:00 </p>
+        <p class="main-footer-tel">Бронирование и&nbsp;дополнительная информация по&nbsp;телефону <a class="main-footer-tel-link" href="tel:+78002000600">+7 800 2000 600</a></p>
+        <p class="main-footer-address">Адрес: ул. Восстания, 42а Время работы:&nbsp;13:00&nbsp;–&nbsp;02:00 </p>
       </div>
     </div>
   </footer>
